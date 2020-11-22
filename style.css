@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+body {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+.menu-bar {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+}
+
+
+
+
+.LogoJewel-svelte-1ur14si {
+margin-top: 0;
+display: block;
+width: 20px;
+min-width: 22px;
+max-width: 22px;
+height: 20px;
+min-height: 20px;
+max-height: 21px;
+position: relative;
+left: 24;
+top: 25;
+}
+
+.square {
+    display: block;
+    position: relative;
+    left: 28;
+    top: 23;
+    font-size: 20px;
+    height: 30px;
+    flex: 0.2;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.services {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 0.4;
+    position: relative;
+    top: 13px;
+    height: 20px;
+}
+
+.services li {
+    margin-right: 20px;
+}
+
+
+#shop {
+    list-style: none;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex: 0.12;
+    position: relative;
+    top: 13;
+}
+
+#shop li {
+    margin-right: 10px;
+}
+
+.fas {
+    font-size: 22px;
+    display: block;
+    position: relative;
+    top: 27;
+    right: 30;
+}
+
+.heading {
+    height: 400px;
+    width: 100%;
+}
+
+
+.text-header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    font-size: 62px;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 130;
+}
+
+
+.button-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    position: relative;
+    top: 25px;
+}
+
+.btn-primary{
+    background: #4986fc !important;
+    border: 1px solid #4986fc !important;
+    color: #fff !important;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 10px 5px 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 200px;
+    height: 33px;
+    letter-spacing: 0.1;
+    font-size: 20px;
+}
+
+.image-wrapper {
+    height: 1118px;
+    width: 100%;
+
+}
+
+
+.homepage-stories {
+    height: 517px;
+    width: 1349px;
+    background-image: url('assets/images/PD01841_-_XL_homepage_stories.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: auto;
+    max-width: 100%;
+    transform: none;
+    position: relative;
+    top: 155px
+}
+
+
+.stories {
+    height:550px;
+    width: 100%;
+    background-color: #000;
+}
+
+
+#stories-header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 42%;
+    max-width: 50%;
+    color: #fff;
+    position: relative;
+    top: 180px;
+    height: 300px;
+}
+
+#stories-header h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+}
+
+#stories-header p {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+
+.offers {
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.offers-wrapper {
+    height: inherit;
+    width: 75%;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 75px;
+}
+
+.shopping-cart {
+    background-image: url('assets/images/homepage_tote.webp');
+    height: 370px;
+    width: 48%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+
+}
+
+
+.customers-cart {
+    height: 255px;
+    width: 100%;
+    max-width: 50%;
+    position: relative;
+    top: 70;
+    left: 55;
+}
+
+.customers-cart h2 {
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.customers-cart p {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 81%;
+    line-height: 1.6;
+}
+
+
+.sell-online {
+    color: #49a4d5;
+    font-size: 16;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20;
+}
+
+
+.delivery {
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+
+.delivery-wrapper {
+    height: inherit;
+    width: 75%;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 75px;
+}
+
+
+.ecommerce {
+    background-image: url('assets/images/ecommerce_takeout.jpg');
+    height: 400px;
+    width: 48%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 102px;
+}
+
+
+.ecommerce-text {
+    height: 255px;
+    width: 100%;
+    max-width: 40%;
+    position: relative;
+    top: 70;
+    left: 55;
+}
+}
+
+
